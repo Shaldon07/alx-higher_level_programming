@@ -1,14 +1,10 @@
 #!/usr/bin/python3
-''' Module: 1-my_list
+''' function that returns the list
 '''
 
 
-class MyList(list):
-    ''' Represents a MyList
+def lookup(obj):
+    ''' function: lookup()
+    Returns a list object
     '''
-
-    def print_sorted(self):
-        '''
-        prints the list, but sorted
-        '''
-        print(sorted(self))
+    return dir(obj)
